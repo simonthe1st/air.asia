@@ -1,0 +1,67 @@
+.header {
+    height: 123px;
+    position: relative;
+    margin-bottom: 65px;
+}
+
+.logo {
+    display: block;
+    position: absolute ;
+    padding-top: 23px ;
+    left: 0px;
+}
+
+.menu {
+    position: absolute;
+    padding-top: 36px;
+    left: 161px;
+
+}
+
+
+.menu__item {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 47px;
+}
+
+.menu__link {
+    font-size: 14px;
+    text-decoration: none;
+    
+}
+
+.menu__link:hover {
+    color:  #DA0100;
+}
+
+.contacts {
+    font-style: normal;
+    text-align: right;
+    position: absolute;
+    padding-top: 25px;
+    right: 32px;
+
+}
+
+.contacts__phone {
+    text-decoration: none;
+    font-size: 25px;
+    margin-bottom: 4px;
+}
+
+.contacts__workhours {
+    font-size: 13px;
+    text-decoration: underline;
+    color: #98A4A8;
+}
+
+.contacts__workhours:hover {
+    color: #fff;
+}
+
+.contacts__comment {
+    color: #9A9A9A;
+    font-size: 11px;
+    margin-bottom: 6px;
+}
