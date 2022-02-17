@@ -187,3 +187,7 @@ button {
     color: #303030;
     padding: 50px 0px;
 }
+
+.contacts__workhours{
+    cursor: pointer;
+}
