@@ -37,15 +37,10 @@
     margin-left: 15px;
 }
 
-.review__user--blue{
-    display: flex;
-    align-items: center;
-    font-size: 24px;
-    font-weight: bold;
+.review__user:hover{
     color:#2E77A4;
     text-decoration: underline;
-    margin-bottom: 11px;
-    margin-left: 15px;
+    transition: .3s;
 }
 
 .review__user::after {
